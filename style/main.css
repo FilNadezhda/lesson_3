@@ -231,9 +231,7 @@ ul {
 
 .ftt {
  width: 80%;height: 50px;
- position: absolute;
- top: 1040px;
- left: 145px;
+ padding-top: 60px;
  bottom: 80px;
  margin: 0 auto;
 }
