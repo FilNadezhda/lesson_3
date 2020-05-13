@@ -6,190 +6,242 @@
 .conteiner {
   text-align: center;
   width: 100%;
-  font-family: 'Open sans' sans-serif;
+ /* font-family: 'Open sans' sans-serif;*/
 }
 body {
   
-  font-size: 0;
+ font-size: 0;
   
 }
 /*HEADER
-=====================*/
+======================================*/
 header {
-
  padding-top: 107px;
 }
 
 h1 {
-  font-family: 'Raleway',  sans-serif;
-  font-weight: 400;
-  font-size: 36px;
-  color:  #212121;
-  text-align: centers;
+ font-family: 'Raleway',  sans-serif;
+ font-weight: lighter;
+ font-size: 36px;
+ color:  #212121;
+ text-align: centers;
 }
 
 h1::after {
-display: block;
-content: '';
-  width: 67px;
-  height: 34px;
-  border-bottom: 2px solid #ff8c2c;
-  margin: 0 auto;
+ display: block;
+ content: '';
+ width: 67px;
+ height: 34px;
+ border-bottom: 2px solid #ff8c2c;
+ margin: 0 auto;
  }
 
 h2 {
-  font-size: 14px;
-  font-family: 'Raleway' sans-serif;
-  font-weight: 400;
-  color: #86878B;
-  margin: 38px;
+ font-size: 14px;
+ font-family: 'Raleway' sans-serif;
+ font-weight: lighter;
+ color: #86878B; opacity: 0.5;
+ margin: 38px;
 }
 
 /*MAIN
-====================*/
+====================================*/
 main {
-  font-size: 0;
-  padding: 80px 0 107px;
- 
+ font-size: 0;
+ padding: 80px 0 107px;
 }
 
 .block {
-  display: inline-block;
-  font-family: 'Open sans' sans-serif;
-  font-weight: 400px;
-  text-align: center;
-  width: 400px;
-  margin: 0 16px;
-  padding: 0 50px 0 50px;
+ display: inline-block;
+ font-family: 'Open sans' sans-serif;
+ font-weight: 400px;
+ text-align: center;
+ width: 430px;
+ margin: 0 16px;
+ padding: 0 50px 0 50px;
 }
 
 .circle {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  border: 2px solid #ff8c2c;
-  color: #ff8c2c;
-  margin: 0 auto;
+ width: 70px;
+ height: 70px;
+ border-radius: 50%;
+ border: 2px solid #ff8c2c;
+ color: #ff8c2c;
+ margin: 0 auto;
 }
 
 .icon--bulb {
-  background: url("./img/bulb.png") no-repeat center;
+ background: url("../img/bulb.png") no-repeat center;
 }
 
 .icon--key {
-  background: url("./img/keyboard.jpg") no-repeat center;
+  background: url("../img/keyboard.jpg") no-repeat center;
 }
 
 .icon--light {
-  background: url("./img/lighting.jpg") no-repeat center;
+ background: url("../img/lighting.jpg") no-repeat center;
 }
+
 h4 {
-  font-size: 16px;
-  font-family: 'Raleway' sans-serif;
-  margin: 29px auto;
+ font-size: 20px;
+ font-weight: 400px;
+ font-family: 'Raleway' sans-serif;
+ margin: 29px auto;
 }
 
 p {
-  font-size: 14px;
-  font-family: 'Raleway' sans-serif;
-  font-weight: 400;
-  color:#A9AAAC; 
+ font-size: 16px;
+ font-family: 'Raleway' sans-serif;
+ font-weight: 400px;
+ color:#A9AAAC; 
 }
 
 .picter {
-  width: 80%;
-  margin: 0 auto;
+ width: 80%;
+ margin: 0 auto;
  margin-top: 104px;
-  position: relative;
+ position: relative;
+
 }
 
 img {
-width: 100%;
+ width: 100%;
  background:  rba (0, 0, 0, 5);
 }
 
 .text {
-  position: absolute;
-  top:55px;
-  width: 96%;
+ position: absolute;
+ top:75px;
+ width: 96%;
  
 }
 
 .picter-text {
-  color: #FFFFFF;
-  font-family: 'Raleway' lighter sans-serif;
-  font-weight: 300 lighter;
-  font-size: 30px;
-  margin-left: 40px;
+ color: #FFFFFF;
+ font-family: 'Raleway' lighter sans-serif;
+ font-weight: 300;
+ font-size: 30px;
+ margin-left: 40px;
   
 }
 
 .picter-text::after {
-  content: '';
-  border-bottom: 1px #FFFFFF solid;
-  width: 45px;
-  text-align: center;
-  border-top: 50px;
-  line-height: 10px;
+ content: '';
+ border-bottom: 1px #FFFFFF solid;
+ width: 45px;
+ text-align: center;
+ border-top: 50px;
+ line-height: 10px;
 }
 
 .text-small{
  font-size: 15px;
  font-family: 'Raleway' sans-serif;
  font-weight: 400;
- color: #C0BAB5;opacity: 0.5;
+ color: #C0BAB5;opacity: 0.7;
  padding: 15px;
  margin: 0 35px 10px 50px;
 }
 
 button {
-  font-size: 12px;
-  font-family: 'Open sans' sans-serif;
-  color:#FFFFFF; 
-  border: 2px solid;
-  border-color: #FFFFFF;
-  background-image: none;
-  background-color: transparent;
-  padding: 10px 15px;
-  text-decoration: none;
-  margin-left: 55px;
+ font-size: 12px;
+ font-family: 'Open sans' sans-serif;
+ color:#FFFFFF; 
+ border: 2px solid;
+ border-color: #FFFFFF;
+ background-image: none;
+ background-color: transparent;
+ padding: 10px 15px;
+ text-decoration: none;
+ margin-left: 55px;
 }
+
 
 /*FOOTER
-=================*/
+==========================*/
 footer {
-  width: 80%;
-  height: 100px;
-  background:#212121;
-  margin: 0 auto;
-  position: relative;
-
+ width: 80%;
+ height: 100px;
+ margin: 0 auto;
+ background: black;
 }
-.footer-icons {
+
+.footer-icon {
+ width: 100%;
+ height: 100%;  
+ position: relative;
+ margin: 0 auto;
+ z-index: 2;  
+}
+
+ul {
+ margin: 0 auto;
  width: 100%;
  height: 100%;
  position: absolute;
-  
+ z-index: 0;
+ right: 0;
 }
 
-.google {
+.social {
+ display: inline-block;
+ width: 31px;
+ height: 100%;
+ position: relative;
+
+ right: 40px;
+ z-index: 1;
+ margin: 20px 5px 0 5px;
+}
+
+.icon--facebook {
+ background: url("./icon/facebook.png") no-repeat;
+ background-size: contain;
+
+}
+.icon--twitter {
+ background: url("./icon/twitter.png") no-repeat;
+ background-size:  contain; 
+}
+
+.icon--google {
  background: url("./icon/google.png") no-repeat;
- font-size: 20px;
+ background-size:  contain;
 }
 
-.pinterset {
-  background: url("./icon/pinterest.png")no-repeat;
-  font-size: 20px;
+.icon--pinterset {
+ background: url("./icon/pinterest.png") no-repeat;
+ background-size:  contain;
 }
 
-.insta {
-  background: url("./icon/") no-repeat;
-  font-size: 20px;
+.icon--insta {
+ background: url("./icon/instagram.png") no-repeat;
+ background-size:  contain;
 }
 
-span {
-  font-size: 8px; opacity: 0.5;
-  font-family: 'Open sans' sans-serif;
-  color: #FFFFFF;
-  margin: 60px auto;
+.icon--stum {
+ background: url("./icon/stumpleuon.png") no-repeat;
+ background-size:  contain;
+}
+
+.icon--rss {
+ background: url("./icon/rss.png") no-repeat;
+ background-size:  contain;
+}
+
+.ftt {
+ width: 80%;height: 50px;
+ position: absolute;
+ top: 1040px;
+ left: 145px;
+ bottom: 80px;
+ margin: 0 auto;
+}
+
+.footer-text {
+ font-size: 11px; opacity: 0.5;
+ font-family: 'Open sans' sans-serif;
+ text-align: center;
+ color:#FFFFFF;
+ right: 48%;
 }
