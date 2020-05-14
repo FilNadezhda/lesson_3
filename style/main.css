@@ -15,11 +15,10 @@ header {
 }
 
 h1 {
-  font-family: 'Raleway', sans-serif;
+ font-family: 'Raleway', sans-serif;
  font-weight: lighter;
  font-size: 36px;
  color:  #212121;
-
 }
 
 h1::after {
@@ -45,10 +44,10 @@ h2 {
 .block {
  display: inline-block;
  text-align: center;
+ font-family: 'Raleway', sans-serif;
  width: 450px;
  margin: 0 16px 50px 0;
  padding: 0 50px 0 50px;
-
 }
 
 .circle {
@@ -73,9 +72,9 @@ h2 {
 }
 
 h4 {
- font-size: 20px;
- font-weight: 400;
  font-family: 'Raleway', sans-serif;
+ font-size: 20px;
+ font-weight: 600;
  margin: 29px auto;
 }
 
@@ -88,60 +87,44 @@ p {
 
 .mask {
  background: url("../img/picture.jpg");
+ background-color: linear-gradient(rgba(0, 0, 0, .3));
  background-size: cover;
  width: 100%;
- height: 320px;
- position: relative;
-
+ height: 400px;
  }
 
- .picture {
-
-   position: absolute;
-
- width: 100%;
- height: 320px;
- }
 .picture-text {
- color:#FFFFFF;
+ color:#ffffff;
  font-family: 'Raleway', sans-serif;
- text-align: center;
  font-weight:400;
  font-size: 36px;
- padding-top: 50px;
+ padding-top: 80px;
 }
 
 .picture-text::after {
-  content: '';
-  border-bottom: 1px #FFFFFF solid;
-  width: 45px;
-  text-align: center;
-
-  line-height: 10px;
+ display: block;
+ content: '';
+ border-bottom: 1px #ffffff solid;
+ width: 67px;
+ height: 44px;
+ margin: 0 auto;
  }
 
-
-
 .text-small {
- font-size: 15px;
+ font-size: 18px;
  font-family: 'Raleway',sans-serif;
  font-weight: 700;
- text-align: center;
  color: #C0BAB5;
- margin: 38px;
 }
 
 button {
  font-size: 12px;
- font-family: 'Open sans' sans-serif;
- color:#FFFFFF;
+ color:#ffffff;
  border: 2px solid;
- border-color: #FFFFFF;
- background-image: none;
+ border-color:#ffffff;
  background-color: transparent;
  padding: 10px 15px;
- text-decoration: none;
- 
+ margin-top: 50px;
  }
  
 /*FOOTER
@@ -151,7 +134,7 @@ footer {
  height: 100px;
  margin: 0 auto;
  text-align: center;
- background: black;
+ background:#0a0a0a;
 }
 
 .footer-icon {
@@ -216,17 +199,8 @@ ul {
  background-size:  contain;
 }
 
-.ftt {
- width: 80%;height: 50px;
- padding-top: 60px;
- bottom: 80px;
- margin: 0 auto;
-}
-
 .footer-text {
  font-size: 11px; opacity: 0.5;
- font-family: 'Open sans' sans-serif;
- text-align: center;
- color:#FFFFFF;
- right: 48%;
+ color: #ffffff;
+ padding-top: 60px
 }
